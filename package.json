@@ -17,7 +17,7 @@
     "prebuild:ci": "run-p lint clean:dist",
     "build:ci": "cross-env npm run build:simple",
     "postbuild:ci": "cross-env-shell react-snap",
-    "build:dev": "cross-env PUBLIC_URL='/' npm run build:simple",
+    "build:dev": "cross-env PUBLIC_URL='/covid19' npm run build:simple",
     "preserve": "npm run build",
     "serve": "serve dist",
     "serve:dist": "serve dist"
@@ -62,7 +62,8 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "bootstrap": "^4.5.3",
     "pdf-lib": "^1.11.2",
-    "qrcode": "^1.4.4"
+    "qrcode": "^1.4.4",
+    "secure-ls": "^1.2.6"
   },
   "browserslist": [
     "last 5 versions"
