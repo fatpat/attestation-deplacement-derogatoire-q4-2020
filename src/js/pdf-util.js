@@ -4,7 +4,7 @@ import { generateQR } from './util'
 
 const ys = {
   travail: 553,
-  achats: 482,
+  achats_culturel_cultuel: 482,
   sante: 434,
   famille: 410,
   handicap: 373,
